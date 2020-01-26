@@ -80,3 +80,33 @@ INTERVIEW QUESTIONS FOR PYTHON DJANGO
           print(a)
           a , b = b, a+b
 
+#### 9 - even no
+        def evennum(a):
+          for x in range(a):
+            if x%2 == 0:
+              print(x)
+
+        evennum(20)
+        
+    
+#### 9 - odd no
+        def oddnum(a):
+          for x in range(a):
+            if x%2 != 0:
+              print(x)
+
+        oddnum(20) 
+        
+        
+#### 9 - prime no
+        no = 30
+        for x in range(no):
+          if x > 1:
+            for i in range(2, x):
+              if (x%i) == 0:
+                break
+            else:
+              print(x)
+        
+
+ 
