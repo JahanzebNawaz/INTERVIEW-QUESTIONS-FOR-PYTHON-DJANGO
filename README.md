@@ -109,4 +109,10 @@ INTERVIEW QUESTIONS FOR PYTHON DJANGO
               print(x)
         
 
+ ## SQL
  
+#### What is a Cursor?
+
+        A database Cursor is a control which enables traversal over the rows or records in the table. This can be viewed as a           pointer to one row in a set of rows. Cursor is very much useful for traversing such as retrieval, addition and removal of database records. 
+        
+        
