@@ -44,5 +44,39 @@ INTERVIEW QUESTIONS FOR PYTHON DJANGO
         b = a ^ b
         a = a ^ b
  
-#### 6 - 
+#### 6 - print index wise values
+        a = ['jahanzeb', 'nawaz']
+        b = ['34', '67']
+
+        c = len(a)
+        for x in  range(c):
+          print(a[x], b[x])
+          
+#### 7 - reverse a string
+        a = 'You can use index numbers'[::-1]
+        or
+        b = a[::-1]
+        print(b)
         
+        ------
+        other way, recursive function
+
+        def reverse(a):
+          if len(a) == 0:
+            return a 
+          else:
+            return reverse(a[1:]) + a[0] 
+
+        a = 'You can use index numbers'
+
+        print(reverse(a))
+        
+        
+ #### 8 - Fibonacci series       
+        n = 20
+        a = 0
+        b = 1
+        while a < n:
+          print(a)
+          a , b = b, a+b
+
