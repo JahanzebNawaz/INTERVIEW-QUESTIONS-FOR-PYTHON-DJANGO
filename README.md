@@ -72,7 +72,7 @@ INTERVIEW QUESTIONS FOR PYTHON DJANGO
         print(reverse(a))
         
         
- #### 8 - Fibonacci series       
+#### 8 - Fibonacci series       
         n = 20
         a = 0
         b = 1
@@ -108,8 +108,32 @@ INTERVIEW QUESTIONS FOR PYTHON DJANGO
             else:
               print(x)
         
+#### 10 - 2nd high no 
+	list1 = [10, 20, 4, 45, 99] 
+	list.sort()
+	print(list[-2])
+	
+	or 2nd way 
+	alist=[-45,0,3,10,90,5,-2,4,18,45,100,1,-266,706]
+	mx = max(alist)
+	z = max(n for n in alist if n!=mx)
+	print(z)
 
- ## SQL
+	//////
+	for x in range(len(alist)):
+	  if alist[x] > s:
+	    s = alist[x]
+	  if alist[x] > l:
+	    tmp = s
+	    s = l
+	    l = tmp
+	    
+
+	print(s)
+
+	
+
+## SQL
  
 #### What is a Cursor?
 
