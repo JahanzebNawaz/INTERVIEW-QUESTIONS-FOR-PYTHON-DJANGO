@@ -142,6 +142,20 @@ INTERVIEW QUESTIONS FOR PYTHON DJANGO
 	    else: 
 		if list1[i]>secondmax: 
 		    secondmax=list1[i] 
+	list1 = [10, 20, 4, 45, 99] 
+
+	max= 0
+	secondmax= 0
+
+	for x in range(2,len(list1)): 
+	    if list1[x] > max:
+	      secondmax = max
+	      max = list1[x]
+	    else:
+	      if list1[x] > secondmax:
+		secondmax = list1[x]
+
+	print(secondmax)
 
 	
 
